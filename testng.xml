@@ -4,7 +4,6 @@
     <test verbose="2" preserve-order="true" name="/Users/mousumighosh/Selenium/DemoToolsQA">
         <classes>
             <class name="org.demoqa.FnctionalTest">
-                <methods><include name="testqa"/></methods>
             </class>
         </classes>
     </test>
