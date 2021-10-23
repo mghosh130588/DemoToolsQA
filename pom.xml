@@ -19,6 +19,13 @@
   </properties>
 
   <dependencies>
+    <!-- https://mvnrepository.com/artifact/junit/junit -->
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13.2</version>
+      <scope>test</scope>
+    </dependency>
     <!-- https://mvnrepository.com/artifact/org.testng/testng -->
     <dependency>
       <groupId>org.testng</groupId>
@@ -35,7 +42,7 @@
         <version>3.0.0-M5</version>
         <configuration>
         <includes>
-          <include>*FnctionalTest.java</include>
+          <include>*/*.java</include>
         </includes>
       </configuration>
       </plugin>
