@@ -21,6 +21,10 @@ public class FnctionalTest {
         System.out.println("this is second test");
     }
 
+    @Test
+    public void thirdtest(){
+        System.out.println("this is third test");
+    }
     @AfterTest
     public void aftertest(){
         System.out.println("This is after test");
