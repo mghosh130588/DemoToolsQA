@@ -23,7 +23,7 @@ public class FnctionalTest {
 
     @Test
     public void thirdtest(){
-        System.out.println("this is third test");
+        System.out.println("this is updated test");
     }
     @AfterTest
     public void aftertest(){
